@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Timeline from './Timeline';
 import EventForm from './EventForm';
 
+import styles from '../assets/styles/GeneratePage.module.css';
+
 const GeneratePage = () => {
     const [events, setEvents] = useState([]);
 
@@ -53,11 +55,12 @@ const GeneratePage = () => {
 
     return (
         <div>
-            <h1>Welcome to the Generate Page!</h1>
-            <h1>Add Event</h1>
+            <h1 className={styles.h1}>Welcome to the Generate Page!</h1>
+            <hr />
+            <h1 className={styles.h1}>Add Event</h1>
             <EventForm addEvent={addEvent} uploadEvents={uploadEvents} />
             <hr />
-            <h1>Timeline</h1>
+            <h1 className={styles.h1}>Timeline</h1>
             {events.length > 0 ? (
                 <>
                 <Timeline events={events} />

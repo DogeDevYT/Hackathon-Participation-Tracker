@@ -1,0 +1,59 @@
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif; /* Match the font used in Timeline */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.inputField,
+.textareaField {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; /* Match the font used in Timeline */
+}
+
+.textareaField {
+    resize: vertical;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    background-color: #ff9f55;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Match the font used in Timeline */
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.uploadField {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; /* Match the font used in Timeline */
+}
+  

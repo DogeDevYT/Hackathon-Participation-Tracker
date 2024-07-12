@@ -1,0 +1,17 @@
+.h1 {
+    font-family: 'Roboto', sans-serif; /* Match the font used in Timeline */
+    text-align: center;
+}
+
+.h2 {
+    font-family: 'Roboto', sans-serif; /* Match the font used in Timeline */
+}
+
+.anchor {
+    color: #ff9f55;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: #f57f25;
+}
