@@ -64,10 +64,11 @@ const GeneratePage = () => {
             {events.length > 0 ? (
                 <>
                 <Timeline events={events} />
-                <button onClick={downloadEvents}>Download Events as JSON</button>
+                <button onClick={downloadEvents} className={styles.downloadButton}>Download Events as JSON</button>
                 </>
             ) : (
-                <p>No events to display.</p>
+                <h3 className={styles.h3}>No events to display. You can add events by uploading a previous tracker json file <b>OR</b> filling out the form 
+                above. <u>BOTH</u> of these methods are done using the event form above!</h3>
             )}
         </div>
     );
